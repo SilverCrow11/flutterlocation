@@ -124,6 +124,7 @@ class FlutterLocationService : Service(), PluginRegistry.RequestPermissionsResul
 
             val notification: Notification = NotificationCompat.Builder(this, CHANNEL_ID)
                     .setContentTitle(getText(R.string.notification_title))
+                    .setContentInfo(getText(R.string.notification_content))
                     .setSmallIcon(R.drawable.navigation_empty_icon)
                     .setPriority(NotificationCompat.PRIORITY_HIGH)
                     .build()

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="notification_title">Background location service running</string>
+    <string name="notification_title">Be Aware Background location service running</string>
+    <string name="notification_content">Be Aware app is observing your location data to monitor and inform you about over speeding.</string>
 </resources>
